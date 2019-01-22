@@ -1,9 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default class Home extends Component{
-    render(){
-        return(
-            <div>this is home</div>
-        )
-    }
-}
+import Layout from './Layout';
+
+const Home = () => {
+  return (
+    <Layout>
+      <p>Hello World!</p>
+      <p>
+        <Link to="/Page">페이지 이동</Link>
+      </p>
+    </Layout>
+  );
+};
+
+export default Home;
