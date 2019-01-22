@@ -8,13 +8,13 @@ const Layout = ({ children }) => {
   return (
     <Container>
       <Link to="/">
-        <Header as="h1" className={'h1'}>
-          React SPA with CRA and deploy ghpages
+        <Header as="h1" className={h1}>
+          React SPA with Webpack and deploy gh-pages test
         </Header>
       </Link>
       {children}
       <Divider />
-      <p className={'pull-right'}>
+      <p className={pullRight}>
         Made with <Icon name="heart" color="red" /> by juunone
       </p>
     </Container>
