@@ -1,4 +1,4 @@
-# React SPA with CRA and deploy ghpages
+# React SPA with CRA and deploy gh-pages
 
 ## Description
 
@@ -8,7 +8,7 @@
 
 ## Demo
 
-- [Link](https://juunone.github.io/react-spa-ghpages/)
+- <a href="https://juunone.github.io/react-spa-ghpages/" target="_blank">Link</a>
 
 ## Project Tree
 
