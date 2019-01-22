@@ -8,7 +8,7 @@
 
 ## Demo
 
-- [Link](https://juunone.github.io/react-spa-ghpages/){:target="blank"}
+- [Link](https://juunone.github.io/react-spa-ghpages/)
 
 ## Project Tree
 
