@@ -13,28 +13,26 @@
 ## Project Tree
 
 ```
-|-- build
 |-- node_modules
 |-- public
+    |-- index.css
     |-- index.html
     |-- favicon.ico
-    |-- manifest.json
 |-- src
-    |-- App.css
-    |-- App.js
-    |-- App.test.js
-    |-- Home.js
-    |-- index.css
+    |-- components
+        |-- App.js
+        |-- DynamicPage.js
+        |-- Home.js
+        |-- Layout.css
+        |-- Layout.js
+        |-- Loading.js
+        |-- NoMatch.js
     |-- index.js
-    |-- Layout.css
-    |-- Layout.js
-    |-- logo.svg
-    |-- NotFound.js
-    |-- Page.js
-    |-- serviceWorker.js
-|-- .gitignore
+|-- .babelrc
 |-- package.json
-|-- README.md
+|-- postcss.config.js
+|-- webpack.config.development.js
+|-- webpack.config.production.js
 |-- yarn.lock
 ```
 
