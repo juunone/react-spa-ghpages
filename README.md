@@ -49,7 +49,7 @@ homepage: "https://[username].github.io/[repository]"
 ```
 
 <pre><code><span style="color:orange">yarn</span> install
-<span style="color:orange">yarn</span> build 
+<span style="color:orange">yarn</span> dev 
 <span>dev : http://localhost:3000</span>
 </code></pre>
 
