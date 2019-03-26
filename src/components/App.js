@@ -3,8 +3,6 @@ import './App.css';
 import { Switch, HashRouter as Router, Route } from 'react-router-dom';
 import importedComponent from 'react-imported-component';
 import Home from './Home';
-// import Page from './Page';
-// import NotFound from './NotFound';
 
 import Loading from './Loading';
 
