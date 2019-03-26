@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{359:function(e,n,t){"use strict";t.r(n);var a=t(0),l=t.n(a),c=t(308),o=t(132);n.default=function(){return l.a.createElement(o.a,null,l.a.createElement("h2",null,"또다른 페이지로 왔어요!"),l.a.createElement("p",null,l.a.createElement(c.a,{to:"/"},"Go home")))}}}]);
+//# sourceMappingURL=Page.0ba0e477fae48c44539f.js.map
