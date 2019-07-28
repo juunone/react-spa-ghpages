@@ -32,10 +32,13 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "autoprefixer": "^9.6.1",
+    "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.5",
     "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
     "gh-pages": "^2.0.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
@@ -52,13 +55,8 @@
     "webpack-dev-server": "^3.1.14",
     "webpack-merge": "^4.2.1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not ops_mini all"
+    "> 1%",
+    "last 2 versions"
   ]
 }
