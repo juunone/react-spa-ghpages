@@ -10,7 +10,6 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d dist",
     "clean": "rimraf dist",
-    "server": "node server.js",
     "dev": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },

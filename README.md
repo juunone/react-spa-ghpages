@@ -44,26 +44,36 @@ yarn deploy
 ## Project Tree
 
 ```
-|-- node_modules
 |-- public
-    |-- index.css
     |-- index.html
     |-- favicon.ico
 |-- src
-    |-- components
+    |-- index.js
+    |-- js
         |-- App.js
         |-- DynamicPage.js
         |-- Home.js
-        |-- Layout.css
         |-- Layout.js
         |-- Loading.js
         |-- NoMatch.js
-    |-- index.js
+    |-- sass
+        |-- base
+            |-- _base.scss
+            |-- _reset.scss
+        |-- layout
+            |-- _footer.scss
+            |-- _header.scss
+            |-- _main.scss
+        |-- main.scss
 |-- .babelrc
+|-- .eslintrc
+|-- LICENSE
 |-- package.json
 |-- postcss.config.js
-|-- webpack.config.development.js
-|-- webpack.config.production.js
+|-- webpack.common.js
+|-- webpack.dev.js
+|-- webpack.prod.js
+|-- README.md
 |-- yarn.lock
 ```
 
