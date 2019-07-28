@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import './index.css';
-import App from './components/App';
+import './sass/main.scss';
+import App from './js/App';
 
 
 const render = (Component) => { 
@@ -14,4 +14,4 @@ ReactDOM.render(
 
 render(App);
 
-if (module.hot) module.hot.accept('./components/App', () => render(App));
+if (module.hot) module.hot.accept('./js/App', () => render(App));
